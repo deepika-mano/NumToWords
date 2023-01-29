@@ -24,14 +24,13 @@ else if(len==4 && num[len-3]-'0'!=0) {
         if(num[0]-'0'==1){
             int sum = num[0] - '0' + num[1] - '0';
             System.out.print(twodigit[sum]); 
-            System.out.print(" Hunderd");
+            System.out.print(" Hundred");
         }
         else{
        int i = (num[0] - '0');  
        System.out.print(tys[i]+ "-");
-       i++;
-       System.out.print(onedigit[i]);
-       System.out.print(" Hunderd");
+       System.out.print(onedigit[i+1]);
+       System.out.print(" Hundred");
         }
     }
 }
